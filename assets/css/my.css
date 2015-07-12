@@ -26,3 +26,9 @@
 .bs-callout-default{
 	border-left-color: #888888;
 }
+#aboutMe, #mySkill, #myAwards, #myProject, #education{
+	padding-top:20px;
+}
+.mySpanList{
+	padding-top:5px;padding-bottom:5px;
+}
