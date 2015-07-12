@@ -35,3 +35,8 @@
 .myTitle{
 	color:#000000;
 }
+.myIconPostion{
+	position: relative;
+	top:20px;
+	left:20px;
+}
