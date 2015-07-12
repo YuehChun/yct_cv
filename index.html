@@ -32,7 +32,7 @@
         <div class="border no-right-border">Yueh</div><div class="border">Chun</div>
         <div>Done</div>
     </div>
-  <div class="img-src" style="background-image: url('assets/img/HeadBack.jpg')"></div>
+  <div class="img-src" style="background-image: url('assets/img/HeadBack.jpg')" id="myBG"></div>
   <div class='img-src blur' style="background-image: url('assets/img/HeadBack.jpg')"></div>
 </div>
 
@@ -53,7 +53,7 @@
           <div class="container">
               <div class="row">
                 <div class="tim-title">
-                    <h2 class="Quote">What is <u>Yueh-Chun</u> ? </h2>
+                    <h2 class="Quote myTitle">What is <u>Yueh-Chun</u> ? </h2>
                 </div>
                 <div class="col-md-12"><br/>
   <p class="lead">
@@ -85,7 +85,7 @@
           <div class="container">
               <div class="row">
                 <div class="tim-title">
-                    <h2 class="Quote">What could <u>I do</u> ? </h2>
+                    <h2 class="Quote myTitle">What could <u>I do</u> ? </h2>
                 </div>
                 <div class="col-md-12 lead">
                   <div class="bs-callout bs-callout-info">
@@ -118,7 +118,7 @@
           <div class="container">
               <div class="row">
                 <div class="tim-title">
-                  <h2 class="Quote">What is <u>my awards</u> ? </h2>
+                  <h2 class="Quote myTitle">What is <u>my awards</u> ? </h2>
                 </div>
                 <div class="col-md-12 lead">
 
@@ -142,7 +142,7 @@
           <div class="container">
               <div class="row">
                 <div class="tim-title">
-                    <h2 class="Quote">What <u>paper</u> I have published? </h2>
+                    <h2 class="Quote myTitle">What <u>paper</u> I have published? </h2>
                 </div>
 
                 <div class="col-md-12 lead">
@@ -163,7 +163,7 @@
           <div class="container">
               <div class="row">
                 <div class="tim-title">
-                    <h2 class="Quote">What I <u>do or doing project</u> during my school years? </h2>
+                    <h2 class="Quote myTitle">What I <u>do or doing project</u> during my school years? </h2>
                 </div>
                 <div class="col-md-12 lead">
                   <div class="bs-callout bs-callout-info">
@@ -307,7 +307,14 @@
   <script src="assets/js/main.js"></script> <!-- Resource jQuery -->
 
 <script type="text/javascript">
-         
+    $(window).scroll(function(){  
+        $scrollHor=$(this).scrollTop(); 
+        if($scrollHor <= 590){
+          $("#myBG").css("height","590");
+        }else{
+          $("#myBG").css("height","0");
+        }
+    });
     $('.btn-tooltip').tooltip();
     $('.label-tooltip').tooltip();
     $('.pick-class-label').click(function(){
