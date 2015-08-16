@@ -1,0 +1,75 @@
+＃大專學生研究計畫（網路惡意行為分析與防禦之研究）
+
+在這個計畫中我實作做出簡單的 sniffer ，然後也真對特洛伊木馬病毒 稍做點研究與做出簡單的版本，使用了 JAVA 來實踐它。在計畫期間，我找了很多相關的資料，也使用了一些監測性質的軟體來幫助我驗證正確性例如 wireshark 等等的。
+另一個啟發點是計畫中提到的 SQL injection，他這個對我後來的生活相當有幫助，因為有使用到 Open API的部分。對了，還有一件事情，他是我第一個學術	的研究計畫
+
+
+
+＃專題研究計畫（運用訊號源編碼技術提升雲端計算XML文件相似度比對及分群模式效能研究）
+
+這是我做 Data mining 研究的基本功計畫，因為在現在的網路資源裡，很多資料都是以XML文件所儲存，然而這項計畫我開始跟 XML 做朋友，了解整個文件的架構，然後再來一個程式來把需求的資料萃取出來，但有最重要的一點是，這個計畫使用的是MapReduce的架構，探討了分散式運算與其他運算的架構與其應用情境。
+
+
+
+
+＃專題研究計畫（資通訊技術趨勢追蹤系統之設計與開發）
+
+這是近期在研究的計畫，在現在已經有很多資料生產器（就像社群網站中的end user），但是這計畫不是討論說社群網站的使用者，而是探討使用者在討論著什麼現在最熱門的事情，而我在這計畫中當任的負責寫程式的小弟。
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+# 工研院實習
+
+在這邊我學習到很多在工作上溝通的技巧，或者是跟人家一起寫程式得到了git版本控制的使用方式，還有什麼情況下才可以大膽的 merge master ，然後還有一群很好的主管，給我一個良好發展的舞台 ，同時認同自己的專業。雖然而工作的接觸了 Facebook Graph API & google oAuth2 驗證與取資料的方法與 Dropbox & Twtter 等等的 web service API 的串流來存取資料。
+
+# 網通工讀生
+
+讓我接觸到web程式（php javaScript SQL），而在這邊扮演著免費的員工，不過很感謝有這個機會啟發我對程式的熱愛，也很感謝有這個難得的機會可以學習，這期間是一生中打程式最快樂的期間。
+
+
+# 嵐宇科技
+
+自我的肯定與實現的機會，這份工作從學習中的人變成助理工程師，開始扛起一些計畫的責任與學習職場的應變，開始以工程師的身份跟客戶溝通，這邊使我的 web language 更精進。
+
+# 臺中科技大學工讀生
+
+雖然是工讀生，但是來到這邊我擁有了更多學校的資源可以自我學習，而切藉由我在外面公司學到得程式能力回饋給學校，在這其中了弄出不少的web service 提供系上辦公用，減少人力成本與時間，一直到現在仍再使用。
+
+
+
+
+
+
+
+
+# 產學合作 應用資料探勘技術分析大台灣旅遊網巨量資訊創新服務研發計畫
+
+我最愛的產學合作，因為這個產學合作讓我看到一些潛在的規則，也讓我看到原來資料真的會說話，就像一些有趣的現象，當時從user web browse patten 中找出了一些潛在的定律，例如再台灣，大陸人喜歡逛台灣夜市，日本人喜歡台灣的風景，而台灣人喜歡參與活動。這些事情就是那些資料跟我說的事情。
+
+
+
+
+
+
+
+# Chairman for NUTC-CSIE
+
+This is a happy time at my student life. And this identity need to bear responsibility of class. But I like this identity, because I can handle with different tasks. And I can help somebody. By the way, I take my friends who is single in our department. and I invite other girls who is different department from us.
+
+# Class Rep.
+
+I love my classmate. And we "co-work" together. share code and discussion some problem.
+
+
