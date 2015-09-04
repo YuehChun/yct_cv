@@ -64,3 +64,7 @@
 	width:40px;
 	height:40px;
 }
+.justifyDoc{
+	text-align: justify;
+	text-justify:inter-ideograph;
+}
