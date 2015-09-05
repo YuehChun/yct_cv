@@ -1,3 +1,20 @@
+@media screen and (min-width: 980px) {
+    .motto{font-size: 76px; top: 100px;}
+    .img-circle{max-width: 100%; top: 20px;}
+    .logo-container{top: 20px;}
+}
+@media screen and (min-width: 768px) and (max-width: 979px) {
+    .motto{font-size: 56px; top: 110px;}
+    .img-circle{max-width: 75%;}
+    .logo-container{top: 50px;}
+}
+@media screen and (max-width: 767px) {
+    .motto{font-size: 20px; top: 190px;}
+    .img-circle{max-width: 50%;}
+    .logo-container{top: 70px;}
+}
+
+
 .bs-callout{
 	padding: 20px;
 	margin: 20px 0;

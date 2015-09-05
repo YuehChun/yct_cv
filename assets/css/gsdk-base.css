@@ -1128,8 +1128,7 @@ input.ct-red + span.switch-left, input.ct-red + span + label + span.switch-right
 .logo-container{
     left: 50px;
     position: absolute;
-    top: 20px;
-     z-index: 3;
+    z-index: 3;
 }
 .logo-container .logo{
     overflow: hidden;
@@ -1149,7 +1148,6 @@ input.ct-red + span.switch-left, input.ct-red + span + label + span.switch-right
 }
 .blurred-container .motto{
     color: #FFFFFF;
-    font-size: 76px;
     font-weight: 600;
     left: 100%;
     margin-left: -63%;
@@ -1157,7 +1155,6 @@ input.ct-red + span.switch-left, input.ct-red + span + label + span.switch-right
     text-align: center;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.33);
     text-transform: uppercase;
-    top: 100px;
     z-index: 3;
 }
 .blurred-container .motto .border{
