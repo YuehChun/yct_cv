@@ -1088,9 +1088,6 @@ input.ct-red + span.switch-left, input.ct-red + span + label + span.switch-right
 .panel-group .panel{
     border-radius: 0;
 }
-.panel-title{
-    font-size: 18px;
-}
 .panel-title a:hover, .panel-title a:focus{
     text-decoration: none;
 }
@@ -1128,6 +1125,7 @@ input.ct-red + span.switch-left, input.ct-red + span + label + span.switch-right
 .logo-container{
     left: 50px;
     position: absolute;
+    top: 9%;
     z-index: 3;
 }
 .logo-container .logo{
@@ -1156,6 +1154,7 @@ input.ct-red + span.switch-left, input.ct-red + span + label + span.switch-right
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.33);
     text-transform: uppercase;
     z-index: 3;
+    
 }
 .blurred-container .motto .border{
     float: left;

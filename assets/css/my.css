@@ -1,18 +1,146 @@
 @media screen and (min-width: 980px) {
-    .motto{font-size: 76px; top: 100px;}
-    .img-circle{max-width: 100%; top: 20px;}
-    .logo-container{top: 20px;}
+    .motto{font-size: 76px; top: 25%;}
+    .img-circle{max-width: 100%;}
+    .blurred-container > .img-src{height: 800px;}
+    .blurred-container{height: 800px;}
+    .myTitle{font-size: 36px;}
+    .projectTitle{font-size: 22px;}
+	.panel-title{font-size: 18px;}
+	.justifyDoc{font-size: 21px;}
+	.LinkPosition{font-size: 18px;margin-left: 82px; margin-top: -21px;}
+
+	.experContext{margin-top: 70px; }
+	.careerIcon{width: 40px; height: 40px; margin-left:-20px;}
+	.careerOut{height: 50px;}
+	.schoolIcon{width: 40px;height: 40px; margin-left: -20px;}
+	.myIconPostion{position: relative; top: 20px; left: 20px; font-size: 20px;}
+
+	.skillSize{font-size: 18px;}
+	.skillTitle{font-size: 21px;}
+	.aboutFontSize{font-size: 21px;}
+	.awardList{margin-left: 30px;margin-top: -32px;}
+	.paperList{margin-left: 30px;margin-top: -32px;}
+	.timeLineTitle{font-size:22px; color:#000000;}
 }
 @media screen and (min-width: 768px) and (max-width: 979px) {
-    .motto{font-size: 56px; top: 110px;}
+    .motto{font-size: 56px; top: 25%;}
     .img-circle{max-width: 75%;}
-    .logo-container{top: 50px;}
+    .blurred-container > .img-src{height: 530px;}
+    .blurred-container{height: 530px;}
+    .myTitle{font-size: 30px;}
+    .projectTitle{font-size: 20px;}
+	.panel-title{font-size: 16px;}
+	.justifyDoc{font-size: 18px;}
+	.LinkPosition{font-size: 16px;margin-left: 82px; margin-top: -21px;}
+
+	.experContext{margin-top: 48px; }
+	.careerIcon{width: 40px; height: 40px; margin-left: 34px;}
+	.careerOut{height: 50px;}
+	.schoolIcon{width: 40px;height: 40px; margin-left: 34px;}
+	.myIconPostion{position: relative; top: 8px; left: 9px; font-size: 20px;}
+	
+	.skillSize{font-size: 16px;}
+	.skillTitle{font-size: 18px;}
+	.aboutFontSize{font-size: 18px;}
+	.awardList{margin-left: 30px;margin-top: -31px;}
+	.paperList{margin-left: 30px;margin-top: -31px;}
+	.timeLineTitle{font-size:30px;}
+
+
+  .cd-timeline-content::before {
+    top: 15px;
+    left: 100%;
+    border-color: transparent;
+    border-left-color: rgb(145, 142, 142);
+  }
+  .cd-timeline-block:nth-child(even) .cd-timeline-content::before {
+    top: 15px;
+    left: auto;
+    right: 100%;
+    border-color: transparent;
+    border-right-color: rgb(145, 142, 142);
+  }
 }
-@media screen and (max-width: 767px) {
-    .motto{font-size: 20px; top: 190px;}
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    .motto{font-size: 40px; top: 25%;}
     .img-circle{max-width: 50%;}
-    .logo-container{top: 70px;}
+    .blurred-container > .img-src{height: 380px;}
+    .blurred-container{height: 380px;}
+    .myTitle{font-size: 25px;}
+    .projectTitle{font-size: 18px;}
+	.panel-title{font-size: 14px;}
+	.justifyDoc{font-size: 14px;}
+	.LinkPosition{font-size: 14px;margin-left: 82px; margin-top: -21px;}
+	
+	.experContext{margin-top: 48px; }
+	.careerIcon{width: 40px; height: 40px; margin-left: 34px;}
+	.careerOut{height: 50px;}
+	.schoolIcon{width: 40px;height: 40px; margin-left: 34px;}
+	.myIconPostion{position: relative; top: 8px; left: 9px; font-size: 20px;}
+	
+	.skillSize{font-size: 14px;}
+	.skillTitle{font-size: 16px;}
+	.aboutFontSize{font-size: 16px;}
+	.awardList{margin-left: 28px;margin-top: -23px;}
+	.paperList{margin-left: 28px;margin-top: -23px;}
+	.timeLineTitle{font-size:24px;}
+
+
+  .cd-timeline-content::before {
+    top: 15px;
+    left: 100%;
+    border-color: transparent;
+    border-left-color: rgb(145, 142, 142);
+  }
+  .cd-timeline-block:nth-child(even) .cd-timeline-content::before {
+    top: 15px;
+    left: auto;
+    right: 100%;
+    border-color: transparent;
+    border-right-color: rgb(145, 142, 142);
+  }
 }
+@media screen and (max-width: 480px) {
+    .motto{font-size: 20px; top: 35%;}
+    .img-circle{max-width: 50%;}
+    .blurred-container > .img-src{height: 400px;}
+    .blurred-container{height: 400px;}
+    .myTitle{font-size: 20px;}
+    .projectTitle{font-size: 16px;}
+	.panel-title{font-size: 10px;}
+	.projectYear{display: none;}
+	.justifyDoc{font-size: 10px;}
+	.LinkPosition{font-size: 10px;}
+	
+	.experContext{margin-top: 48px; font-size:10px;}
+	.careerIcon{width: 30px; height: 30px; margin-left: 10px;}
+	.careerOut{height: 20px; padding-left: 0px;}
+	.schoolIcon{width: 30px;height: 30px; margin-left: 7	px;}
+	.myIconPostion{position: relative; top: 8px; left: 9px; font-size: 20px;}
+	
+	.skillSize{font-size: 12px;}
+	.skillTitle{font-size: 14px;}
+	.aboutFontSize{font-size: 14px;}
+	.awardList{margin-left: 30px;margin-top: -25px;}
+	.paperList{margin-left: 30px;margin-top: -25px;}
+	.timeLineTitle{font-size: 18px;}
+	.schoolIcon{margin-left: 12px;}
+	
+  .cd-timeline-content::before {
+    top: 15px;
+    left: 100%;
+    border-color: transparent;
+    border-left-color: rgb(145, 142, 142);
+  }
+  .cd-timeline-block:nth-child(even) .cd-timeline-content::before {
+    top: 15px;
+    left: auto;
+    right: 100%;
+    border-color: transparent;
+    border-right-color: rgb(145, 142, 142);
+  }
+}
+
 
 
 .bs-callout{
@@ -23,7 +151,6 @@
 	border-radius: 3px;
 }
 .projectLink{
-	font-size: 16px;
     line-height: 1.6180em;
     color: #7f8c97;
 }
@@ -71,11 +198,6 @@
 }
 .myTitle{
 	color:#000000;
-}
-.myIconPostion{
-	position: relative;
-	top:20px;
-	left:20px;
 }
 .sampleTag{
 	width:40px;
