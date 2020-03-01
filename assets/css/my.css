@@ -203,6 +203,9 @@
 	color:#000000;
 
 }
+.motto{
+	color:#c8c8c8c;
+}
 .aboutFontColor{
 	color:#4E4E4E;
 }
@@ -213,4 +216,8 @@
 .justifyDoc{
 	text-align: justify;
 	text-justify:inter-ideograph;
+}
+.projectSubType{
+	margin-left:5px;
+	/*font-size: 10px;*/
 }

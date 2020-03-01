@@ -1148,7 +1148,7 @@ input.ct-red + span.switch-left, input.ct-red + span + label + span.switch-right
     color: #FFFFFF;
     font-weight: 600;
     left: 100%;
-    margin-left: -63%;
+    margin-left: -69%;
     position: absolute;
     text-align: center;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.33);
