@@ -190,7 +190,7 @@
 .bs-callout-default{
 	border-top-color: #888888;
 }
-#aboutMe, #mySkill, #myAwards, #myProject, #education{
+#aboutMe, #mySkill, #myAwards, #myProject, #education, #duringSchool{
 	padding-top:20px;
 }
 .mySpanList{
@@ -198,6 +198,13 @@
 }
 .myTitle{
 	color:#000000;
+}
+.mySubTitle{
+	color:#000000;
+
+}
+.aboutFontColor{
+	color:#4E4E4E;
 }
 .sampleTag{
 	width:40px;
