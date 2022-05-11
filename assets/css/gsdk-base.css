@@ -22,7 +22,7 @@ a{
     color: #2C93FF;
 }
 a:hover, a:focus {
-    color: #1084FF;
+    color: #3a87ad;
 }
 a:focus, a:active, 
 button::-moz-focus-inner,
@@ -197,8 +197,8 @@ input.ct-red + span.switch-left, input.ct-red + span + label + span.switch-right
     background-color: rgba(0,0,0,.0);
 }
 .btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .open .dropdown-toggle.btn-info {
-    color: #1084FF;
-    border-color: #1084FF;
+    color: #3a87ad;
+    border-color: #3a87ad;
     background-color: rgba(0,0,0,.0);
 }
 .btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open .dropdown-toggle.btn-success {
@@ -292,8 +292,8 @@ input.ct-red + span.switch-left, input.ct-red + span + label + span.switch-right
     background-color: #1D62F0;
 }
 .btn-info.btn-fill:hover, .btn-info.btn-fill:focus, .btn-info.btn-fill:active, .btn-info.btn-fill.active, .open .dropdown-toggle.btn-info.btn-fill {
-    background-color: #1084FF;
-    border-color: #1084FF;
+    background-color: #3a87ad;
+    border-color: #3a87ad;
 }
 .btn-success.btn-fill:hover, .btn-success.btn-fill:focus, .btn-success.btn-fill:active, .btn-success.btn-fill.active, .open .dropdown-toggle.btn-fill.btn-success {
     background-color: #049F0C;
@@ -899,7 +899,7 @@ input.ct-red + span.switch-left, input.ct-red + span + label + span.switch-right
     color: #1D62F0;
 }
 .text-info, .text-info:hover{
-    color: #1084FF;
+    color: #3a87ad;
 }
 .text-success, .text-success:hover{
     color: #0C9C14;
@@ -1088,9 +1088,6 @@ input.ct-red + span.switch-left, input.ct-red + span + label + span.switch-right
 .panel-group .panel{
     border-radius: 0;
 }
-.panel-title{
-    font-size: 18px;
-}
 .panel-title a:hover, .panel-title a:focus{
     text-decoration: none;
 }
@@ -1109,14 +1106,14 @@ input.ct-red + span.switch-left, input.ct-red + span + label + span.switch-right
 .blurred-container{
   position:relative;
   width:100%;
-  height:540px;
+  height:590px;
   top:0;
   left:0;
 }
 .blurred-container > .img-src{
     position:fixed;
     width:100%;
-    height:540px;
+    height:590px;
     background-repeat:no-repeat;
     background-size:cover;
     background-position: center center;
@@ -1128,8 +1125,8 @@ input.ct-red + span.switch-left, input.ct-red + span + label + span.switch-right
 .logo-container{
     left: 50px;
     position: absolute;
-    top: 20px;
-     z-index: 3;
+    top: 9%;
+    z-index: 3;
 }
 .logo-container .logo{
     overflow: hidden;
@@ -1149,16 +1146,15 @@ input.ct-red + span.switch-left, input.ct-red + span + label + span.switch-right
 }
 .blurred-container .motto{
     color: #FFFFFF;
-    font-size: 76px;
     font-weight: 600;
     left: 100%;
-    margin-left: -63%;
+    margin-left: -69%;
     position: absolute;
     text-align: center;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.33);
     text-transform: uppercase;
-    top: 100px;
     z-index: 3;
+    
 }
 .blurred-container .motto .border{
     float: left;
