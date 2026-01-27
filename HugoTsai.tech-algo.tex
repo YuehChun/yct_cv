@@ -1,0 +1,92 @@
+\documentclass[a4paper,9pt]{extarticle}
+\usepackage{geometry}
+\geometry{margin=0.4in}
+
+\usepackage{titlesec}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{xcolor}
+\usepackage{parskip}
+
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\titlerule]
+\titleformat{\subsection}{\bfseries}{}{0em}{}
+\titleformat{\subsubsection}{\itshape\bfseries}{}{0em}{}
+
+\titlespacing*{\section}{0pt}{0.5em}{0.3em}
+\titlespacing*{\subsection}{0pt}{0.4em}{0.2em}
+\titlespacing*{\subsubsection}{0pt}{0.3em}{0.2em}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.3em}
+
+% Improve description environment spacing
+\setlist[description]{style=multiline,leftmargin=1em,font=\normalfont,itemsep=0.15em}
+
+\begin{document}
+
+\begin{center}
+    {\LARGE \textbf{YuehChun (Hugo) TSAI}}\\[0.2em]
+    \href{tel:+886988247686}{+886 988 247686} \hspace{1em} | \hspace{1em}
+    \href{mailto:birdtasi@gmail.com}{birdtasi@gmail.com} \hspace{1em} | \hspace{1em}
+    \href{https://linkedin.com/in/hugotsai}{linkedin.com/in/hugotsai} \hspace{1em}
+\end{center}
+
+\section*{Summary}
+\textbf{Senior Machine Learning Engineer \& MLOps Specialist} with \textbf{10 years of ML experience} and \textbf{years of ML architecture design}, solving real-world problems with time series and image data. Recent expertise in \textbf{LLM development} and architecture. Expertise spans MLOps, model development with CI/CD, and LLMs, with a track record of building high-performance pipelines, automating model workflows, and delivering AI-driven products across functions. Specialized in \textbf{Reinforcement Learning for quant-trading}, \textbf{Gen-AI applications} (GraphRAG, ReAct), and \textbf{large-scale ML infra} (Kubernetes, Ray, distributed training) with proven impact in finance, telecom, and industrial systems.
+
+\section*{Experience}
+
+\subsection*{Mal Bank, Abu Dhabi(UAE), Remote}
+\textbf{Senior AI Engineer} \hfill \textit{August 2025 - December 2025}
+
+\begin{itemize}[leftmargin=1em,itemsep=0.15em,parsep=0pt]
+    \item \textbf{Personal Secretary Agent} (LLM Application): Built a production-ready \textbf{AI agent system} with \textbf{ReAct framework} and \textbf{Supervisor pattern} for multi-agent orchestration. Integrated \textbf{memory functionality}, \textbf{GraphDB} for \textbf{user profiles}, and \textbf{RAG} for \textbf{tool selection}. Demonstrates expertise in \textbf{Generative AI engineering} and \textbf{agentic workflow design}
+    \item \textbf{gRPC Architecture}: Architected \textbf{gRPC-based microservices infrastructure} with \textbf{Protocol Buffers (protobuf)} development framework, supporting \textbf{high concurrency and low latency} for \textbf{AI agent architecture}. Enabled type-safe inter-service communication and efficient data exchange between agent components and external services, delivering enhanced \textbf{user experience}
+\end{itemize}
+
+\subsection*{Polymer Capital Management, Taipei, Taiwan}
+\textbf{Machine Learning Researcher} (Focus on MLOps \& Quant Infra) \hfill \textit{March 2023 - August 2025}
+
+\begin{itemize}[leftmargin=1em,itemsep=0.15em,parsep=0pt]
+    \item Developed reinforcement learning (PPO) \textbf{strategy enhancement} for \textbf{futures trading} with custom reward shaping, achieving \textbf{2x RoMaD} in simulated PnL environments
+    \item Built \textbf{Variational Autoencoder} supporting 2 functional tasks: the encoder for \textbf{noise reduction} and \textbf{trend pattern extraction}, the decoder for \textbf{unlimited synthetic market data generation} to support quantitative strategy research and backtesting
+    \item Developed \textbf{knowledge-based LLM tool} using OpenAI-API that \textbf{aggregates broker reports and internal data}, cutting daily report preparation time by over 1 hour
+    \item Created developer-focused tool providing 24/7 PR review and CI-integrated suggestions, \textbf{halving iteration time and achieving 80\% project coverage}
+    \item Built \textbf{hands-off MLOps pipeline} covering preprocessing, training, evaluation, and deployment with Terraform, CDK8s, MLflow, and DVC, ensuring reproducibility, rollback, and multi-user collaboration
+    \item Architected end-to-end \textbf{MLOps platform} with \textbf{Ray \& distributed training pipeline} (scaling RL workloads to 1k GPU nodes, reducing training time and infrastructure cost by 90\% through parallelization and I/O optimization), unified observability by integrating New Relic\&Prometheus, combining infra logs, ML metrics, and system health for real-time debugging and alerts
+\end{itemize}
+
+\subsection*{ChungHwa Telecom Co. Ltd, Taipei, Taiwan}
+\textbf{Data Scientist} \hfill \textit{October 2016 - March 2023}
+
+\begin{itemize}[leftmargin=1em,itemsep=0.15em,parsep=0pt]
+    \item Applied adversarial inverse RL to \textbf{energy control policy optimization in industrial systems}, resulting in 10\% energy consumption reduction with real-time inference via AWS Lambda. Built \textbf{RL environment simulator with LSTM} for offline training
+    \item Deployed lightweight edge \textbf{anomaly detection system} (Inception V3) on Jetson Nano boards with MQTT for equipment monitoring alerts, enabling anomaly detection under hardware constraints. \textbf{Automated deployment} via AWS Greengrass IoT without downtime
+    \item Improved \textbf{CTR by 50\%} in telecom AdTech through \textbf{refined feature selection and enhanced label granularity} (offline/online mapping accuracy: 80\%)
+    \item Engineered high-throughput \textbf{Spark/HiveQL ELT pipeline} for TB-scale telecom logs, reducing ingestion-to-reporting latency from hours to under 10 minutes
+\end{itemize}
+
+\section*{Side Projects}
+\begin{itemize}[leftmargin=1em,itemsep=0.15em,parsep=0pt]
+    \item \textbf{Crypto Trader (ML)}: Implemented \textbf{Hybrid-ML based trading strategy} with \textbf{Momentum, ATR, and MACD indicators}, achieving high \textbf{Sharpe ratio} through dynamic take-profit and stop-loss allocation
+    \item \textbf{Technical Article Series}: Published two technical blog series: (1) \textbf{PyTorch series} - a 30-day series on deep learning topics (\textbf{Transformer, CNN, DCGAN, Neural Style Transfer}), and (2) \textbf{Quantitative Trading series} covering algorithmic trading strategies and implementations
+\end{itemize}
+
+\section*{Technical Skills}
+\begin{itemize}[leftmargin=1em,itemsep=0.15em,parsep=0pt]
+    \item \textbf{Programming}: Python, SQL, TypeScript, Terraform
+    \item \textbf{ML/AI}: \textbf{Transformer}, RL (PPO), GraphRAG, LLM, Variational Autoencoder, WGAN, \textbf{Stable Diffusion, CNN}, Adversarial Inverse RL, Transformers, XGBoost
+    \item \textbf{Infrastructure/System}: \textbf{Kubernetes}, Neo4j, Ray, \textbf{Spark}, AWS Lambda, AWS Greengrass, AWS ECS
+    \item \textbf{DevOps}: GitHub, MLflow, New Relic, CI/CD, FastAPI, Docker, gRPC (Protocol Buffers)
+    \item \textbf{Certifications}: AWS Machine Learning Specialty, AWS Cloud Practitioner, AWS AI Practitioner
+\end{itemize}
+\section*{Education}
+
+\subsection*{National Chung Hsing University, Taichung, Taiwan}
+Master's Degree in Computer Science and Engineering \hfill \textit{2014 - 2016} \\
+\textit{Dissertation: Representative News Extraction Method Based on Social Media: A Case Study on 3D-Printing Industry}
+
+\subsection*{National Taichung University of Science and Technology, Taichung, Taiwan}
+Bachelor's Degree in Computer Science and Information Engineering \hfill \textit{2010 - 2014}
+
+\end{document}
