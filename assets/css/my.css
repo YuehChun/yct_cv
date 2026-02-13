@@ -44,7 +44,7 @@
 	.aboutFontSize{font-size: 18px;}
 	.awardList{margin-left: 30px;margin-top: -31px;}
 	.paperList{margin-left: 30px;margin-top: -31px;}
-	.timeLineTitle{font-size:30px;}
+	.timeLineTitle{font-size:22px; color:#000000;}
 
 
   .cd-timeline-content::before {
@@ -71,19 +71,20 @@
 	.panel-title{font-size: 14px;}
 	.justifyDoc{font-size: 14px;}
 	.LinkPosition{font-size: 14px;margin-left: 82px; margin-top: -21px;}
-	
+
 	.experContext{margin-top: 48px; }
 	.careerIcon{width: 40px; height: 40px; margin-left: 34px;}
 	.careerOut{height: 50px;}
 	.schoolIcon{width: 40px;height: 40px; margin-left: 34px;}
 	.myIconPostion{position: relative; top: 8px; left: 9px; font-size: 20px;}
+	.bs-callout-left2 div{font-size: 14px; line-height: 22px;}
 	
 	.skillSize{font-size: 14px;}
 	.skillTitle{font-size: 16px;}
 	.aboutFontSize{font-size: 16px;}
 	.awardList{margin-left: 28px;margin-top: -23px;}
 	.paperList{margin-left: 28px;margin-top: -23px;}
-	.timeLineTitle{font-size:24px;}
+	.timeLineTitle{font-size:20px; color:#000000;}
 
 
   .cd-timeline-content::before {
@@ -115,17 +116,18 @@
 	.experContext{margin-top: 48px; font-size:10px;}
 	.careerIcon{width: 30px; height: 30px; margin-left: 10px;}
 	.careerOut{height: 20px; padding-left: 0px;}
-	.schoolIcon{width: 30px;height: 30px; margin-left: 7	px;}
-	.myIconPostion{position: relative; top: 8px; left: 9px; font-size: 20px;}
-	
+	.schoolIcon{width: 30px;height: 30px; margin-left: 12px;}
+	.myIconPostion{position: relative; top: 5px; left: 5px; font-size: 14px;}
+
 	.skillSize{font-size: 12px;}
 	.skillTitle{font-size: 14px;}
 	.aboutFontSize{font-size: 14px;}
 	.awardList{margin-left: 30px;margin-top: -25px;}
 	.paperList{margin-left: 30px;margin-top: -25px;}
 	.timeLineTitle{font-size: 18px;}
-	.schoolIcon{margin-left: 12px;}
-	
+	.bs-callout-left2 div{font-size: 12px; line-height: 20px;}
+	.projectSubType{display: none;}
+
   .cd-timeline-content::before {
     top: 15px;
     left: 100%;
