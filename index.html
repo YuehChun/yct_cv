@@ -51,13 +51,95 @@
 <body class="font-sans antialiased">
 
   <!-- Navigation (sticky, hidden initially) -->
-  <nav id="navbar"></nav>
+  <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 -translate-y-full transition-transform duration-300"
+       style="background: rgba(0,0,0,0.8); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);">
+    <div class="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
+      <span class="text-sm font-semibold text-text-primary">Hugo Tsai</span>
+      <!-- Desktop links -->
+      <div class="hidden md:flex gap-8">
+        <a href="#about" class="nav-link text-xs text-text-tertiary hover:text-text-primary transition relative">
+          About<div class="nav-underline h-0.5 bg-accent mt-1"></div>
+        </a>
+        <a href="#experience" class="nav-link text-xs text-text-tertiary hover:text-text-primary transition relative">
+          Experience<div class="nav-underline h-0.5 bg-accent mt-1"></div>
+        </a>
+        <a href="#work" class="nav-link text-xs text-text-tertiary hover:text-text-primary transition relative">
+          Work<div class="nav-underline h-0.5 bg-accent mt-1"></div>
+        </a>
+        <a href="#skills" class="nav-link text-xs text-text-tertiary hover:text-text-primary transition relative">
+          Skills<div class="nav-underline h-0.5 bg-accent mt-1"></div>
+        </a>
+        <a href="#publications" class="nav-link text-xs text-text-tertiary hover:text-text-primary transition relative">
+          Publications<div class="nav-underline h-0.5 bg-accent mt-1"></div>
+        </a>
+        <a href="#education" class="nav-link text-xs text-text-tertiary hover:text-text-primary transition relative">
+          Education<div class="nav-underline h-0.5 bg-accent mt-1"></div>
+        </a>
+      </div>
+      <!-- Mobile hamburger -->
+      <button id="nav-toggle" class="md:hidden text-text-primary" aria-label="Menu">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+      </button>
+    </div>
+    <!-- Mobile overlay -->
+    <div id="nav-mobile" class="md:hidden hidden fixed inset-0 bg-black/95 flex flex-col items-center justify-center gap-8 z-50">
+      <button id="nav-close" class="absolute top-6 right-6 text-text-primary" aria-label="Close">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/>
+        </svg>
+      </button>
+      <a href="#about" class="mobile-nav-link text-2xl text-text-secondary hover:text-text-primary transition">About</a>
+      <a href="#experience" class="mobile-nav-link text-2xl text-text-secondary hover:text-text-primary transition">Experience</a>
+      <a href="#work" class="mobile-nav-link text-2xl text-text-secondary hover:text-text-primary transition">Work</a>
+      <a href="#skills" class="mobile-nav-link text-2xl text-text-secondary hover:text-text-primary transition">Skills</a>
+      <a href="#publications" class="mobile-nav-link text-2xl text-text-secondary hover:text-text-primary transition">Publications</a>
+      <a href="#education" class="mobile-nav-link text-2xl text-text-secondary hover:text-text-primary transition">Education</a>
+    </div>
+  </nav>
 
   <!-- Section 1: Hero -->
-  <section id="hero"></section>
+  <section id="hero" class="min-h-screen flex flex-col items-center justify-center px-6 text-center">
+    <div id="hero-avatar" class="w-28 h-28 rounded-full overflow-hidden border-2 border-white/20 mb-6 opacity-0 scale-0">
+      <img src="assets/img/yct_sp.jpeg" alt="Yueh-Chun Tsai" class="w-full h-full object-cover">
+    </div>
+    <h1 id="hero-name" class="text-5xl md:text-7xl font-bold tracking-tight opacity-0 translate-y-8">
+      Yueh-Chun Tsai
+    </h1>
+    <p id="hero-title" class="text-lg md:text-xl text-text-secondary mt-4 opacity-0">
+      Senior AI Engineer &amp; MLOps Specialist
+    </p>
+    <div id="hero-links" class="flex gap-3 mt-8">
+      <a href="https://github.com/yuehchun" target="_blank" class="px-4 py-2 border border-white/20 rounded-full text-xs text-text-secondary hover:text-text-primary hover:border-white/40 transition opacity-0">GitHub</a>
+      <a href="https://www.linkedin.com/in/hugotsai" target="_blank" class="px-4 py-2 border border-white/20 rounded-full text-xs text-text-secondary hover:text-text-primary hover:border-white/40 transition opacity-0">LinkedIn</a>
+      <a href="mailto:birdtasi@gmail.com" class="px-4 py-2 border border-white/20 rounded-full text-xs text-text-secondary hover:text-text-primary hover:border-white/40 transition opacity-0">Email</a>
+    </div>
+    <div class="mt-16 text-text-tertiary text-xs animate-bounce">↓ Scroll</div>
+  </section>
 
   <!-- Section 2: About -->
-  <section id="about"></section>
+  <section id="about" class="py-24 md:py-32 px-6">
+    <div class="max-w-3xl mx-auto">
+      <div class="section-label text-[11px] uppercase tracking-[0.1em] text-text-secondary mb-3 opacity-0">About</div>
+      <h2 class="section-title text-3xl md:text-4xl font-semibold leading-tight opacity-0">
+        A believer in data.<br>
+        <span class="text-text-secondary">55% Scientist. 25% Analyst. 10% Engineer. 10% Dreamer.</span>
+      </h2>
+      <div class="section-content mt-8 opacity-0">
+        <p class="text-sm md:text-base text-text-secondary leading-relaxed max-w-xl">
+          Senior Machine Learning Engineer &amp; MLOps Specialist with 10+ years of ML experience. Currently building production-ready AI agent systems with LLM and multi-agent orchestration at Mal Bank, UAE. Previously focused on reinforcement learning for quant-trading, MLOps platform architecture, and large-scale distributed training at Polymer Capital Management.
+        </p>
+        <div class="mt-8 space-y-2 text-sm text-text-secondary">
+          <p class="font-medium text-text-primary mb-3">Interested in researching and developing:</p>
+          <p>→ LLM Applications &amp; Agentic AI Systems</p>
+          <p>→ MLOps &amp; ML Infrastructure (Kubernetes, Ray, Distributed Training)</p>
+          <p>→ Reinforcement Learning for Quantitative Trading</p>
+          <p>→ Real-world AI/ML Applications (Finance, Manufacturing, NLP, Computer Vision)</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- Section 3: Experience -->
   <section id="experience"></section>
