@@ -142,10 +142,177 @@
   </section>
 
   <!-- Section 3: Experience -->
-  <section id="experience"></section>
+  <section id="experience" class="py-24 md:py-32 px-6">
+    <div class="max-w-3xl mx-auto">
+      <div class="section-label text-[11px] uppercase tracking-[0.1em] text-text-secondary mb-3 opacity-0">Experience</div>
+      <h2 class="section-title text-3xl md:text-4xl font-semibold mb-12 opacity-0">Where I've Made Impact</h2>
+
+      <div class="space-y-4">
+        <!-- Mal Bank -->
+        <div class="exp-card bg-surface rounded-2xl p-6 cursor-pointer hover:-translate-y-1 transition-all duration-300 hover:shadow-[0_0_20px_rgba(102,126,234,0.15)] opacity-0" onclick="this.querySelector('.card-expand-content').classList.toggle('open')">
+          <div class="flex justify-between items-start">
+            <div>
+              <h3 class="text-base font-semibold">Senior AI Engineer</h3>
+              <p class="text-[13px] text-text-secondary mt-1">Mal Bank · Abu Dhabi, UAE</p>
+            </div>
+            <span class="text-xs text-text-secondary whitespace-nowrap ml-4">2025 — Present</span>
+          </div>
+          <div class="card-expand-content">
+            <div class="pt-4 mt-4 border-t border-white/[0.06] text-sm text-text-secondary leading-relaxed space-y-2">
+              <p>• Built <strong class="text-text-primary">Personal Secretary Agent</strong> with ReAct framework and Supervisor pattern for multi-agent orchestration</p>
+              <p>• Integrated memory functionality, GraphDB for user profiles, and RAG for tool selection</p>
+              <p>• Architected <strong class="text-text-primary">gRPC-based microservices infrastructure</strong> with Protocol Buffers, supporting high concurrency and low latency</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Polymer Capital -->
+        <div class="exp-card bg-surface rounded-2xl p-6 cursor-pointer hover:-translate-y-1 transition-all duration-300 hover:shadow-[0_0_20px_rgba(102,126,234,0.15)] opacity-0" onclick="this.querySelector('.card-expand-content').classList.toggle('open')">
+          <div class="flex justify-between items-start">
+            <div>
+              <h3 class="text-base font-semibold">ML Researcher (MLOps &amp; Quant Infrastructure)</h3>
+              <p class="text-[13px] text-text-secondary mt-1">Polymer Capital Management · Taipei</p>
+            </div>
+            <span class="text-xs text-text-secondary whitespace-nowrap ml-4">2023 — 2025</span>
+          </div>
+          <div class="card-expand-content">
+            <div class="pt-4 mt-4 border-t border-white/[0.06] text-sm text-text-secondary leading-relaxed space-y-2">
+              <p>• Developed <strong class="text-text-primary">RL (PPO) strategy enhancement</strong> for futures trading, achieving 2x RoMaD</p>
+              <p>• Built <strong class="text-text-primary">Variational Autoencoder</strong> for noise reduction and synthetic market data generation</p>
+              <p>• Created <strong class="text-text-primary">knowledge-based LLM tool</strong> using OpenAI API, cutting daily report preparation by 1+ hour</p>
+              <p>• Architected <strong class="text-text-primary">end-to-end MLOps platform with Ray</strong>, scaling RL workloads to 1k GPU nodes, reducing training time by 90%</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ChungHwa Telecom -->
+        <div class="exp-card bg-surface rounded-2xl p-6 cursor-pointer hover:-translate-y-1 transition-all duration-300 hover:shadow-[0_0_20px_rgba(102,126,234,0.15)] opacity-0" onclick="this.querySelector('.card-expand-content').classList.toggle('open')">
+          <div class="flex justify-between items-start">
+            <div>
+              <h3 class="text-base font-semibold">Data Scientist — AI Engineer</h3>
+              <p class="text-[13px] text-text-secondary mt-1">ChungHwa Telecom · Taipei</p>
+            </div>
+            <span class="text-xs text-text-secondary whitespace-nowrap ml-4">2016 — 2023</span>
+          </div>
+          <div class="card-expand-content">
+            <div class="pt-4 mt-4 border-t border-white/[0.06] text-sm text-text-secondary leading-relaxed space-y-2">
+              <p>• Applied <strong class="text-text-primary">adversarial inverse RL</strong> to energy control policy optimization, achieving 10% energy consumption reduction</p>
+              <p>• Deployed <strong class="text-text-primary">edge anomaly detection (Inception V3)</strong> on Jetson Nano with MQTT + AWS Greengrass</p>
+              <p>• Improved <strong class="text-text-primary">CTR by 50%</strong> through refined feature selection and enhanced label granularity in telecom AdTech</p>
+              <p>• Optimized production lines in manufacturing, reducing MAE by more than 55%</p>
+              <p>• Engineered <strong class="text-text-primary">high-throughput Spark/HiveQL ELT pipeline</strong> for TB-scale logs, reducing latency to under 10 minutes</p>
+              <p>• Built automated analysis applications for COVID-19 contact tracing, traffic analysis, and dynamic reporting</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- ITRI Intern -->
+        <div class="exp-card bg-surface rounded-2xl p-6 cursor-pointer hover:-translate-y-1 transition-all duration-300 hover:shadow-[0_0_20px_rgba(102,126,234,0.15)] opacity-0" onclick="this.querySelector('.card-expand-content').classList.toggle('open')">
+          <div class="flex justify-between items-start">
+            <div>
+              <h3 class="text-base font-semibold">Intern</h3>
+              <p class="text-[13px] text-text-secondary mt-1">Industrial Technology Research Institute</p>
+            </div>
+            <span class="text-xs text-text-secondary whitespace-nowrap ml-4">2015</span>
+          </div>
+          <div class="card-expand-content">
+            <div class="pt-4 mt-4 border-t border-white/[0.06] text-sm text-text-secondary leading-relaxed space-y-2">
+              <p>• Coded in Ruby on Rails, accessing web APIs from Facebook, Google, Dropbox, Nexmo</p>
+              <p>• Learned collaboration workflows using Git version control</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Earlier roles -->
+        <div class="exp-card bg-surface rounded-2xl p-6 cursor-pointer hover:-translate-y-1 transition-all duration-300 hover:shadow-[0_0_20px_rgba(102,126,234,0.15)] opacity-0" onclick="this.querySelector('.card-expand-content').classList.toggle('open')">
+          <div class="flex justify-between items-start">
+            <div>
+              <h3 class="text-base font-semibold">Earlier Roles</h3>
+              <p class="text-[13px] text-text-secondary mt-1">Part-time MIS &amp; Associate Programmer</p>
+            </div>
+            <span class="text-xs text-text-secondary whitespace-nowrap ml-4">2009 — 2013</span>
+          </div>
+          <div class="card-expand-content">
+            <div class="pt-4 mt-4 border-t border-white/[0.06] text-sm text-text-secondary leading-relaxed space-y-2">
+              <p>• Part-time MIS at NUTC-CSIE: managed department server, established support systems (project exhibition, voting service)</p>
+              <p>• Associate Programmer at 嵐宇科技: PHP development, database schema design, customer communication</p>
+              <p>• Associate Programmer at 網通數位科技: built front-to-end web services independently, learned MySQL, PHP, JavaScript, HTML, CSS</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- Section 4: Featured Work -->
-  <section id="work"></section>
+  <section id="work" class="py-24 md:py-32 px-6">
+    <div class="max-w-3xl mx-auto">
+      <div class="section-label text-[11px] uppercase tracking-[0.1em] text-text-secondary mb-3 opacity-0">Featured Work</div>
+      <h2 class="section-title text-3xl md:text-4xl font-semibold mb-12 opacity-0">What I've Built</h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
+        <div class="bento-card rounded-2xl p-6 cursor-pointer hover:scale-[1.02] transition-transform duration-300 opacity-0"
+             style="background: linear-gradient(135deg, #1a1a2e, #16213e);"
+             onclick="this.querySelector('.card-expand-content').classList.toggle('open')">
+          <div class="text-[10px] uppercase tracking-widest text-[#667eea]">LLM &amp; GenAI</div>
+          <h3 class="text-[15px] font-semibold mt-2">Personal Secretary Agent</h3>
+          <p class="text-xs text-text-secondary mt-2">Multi-agent orchestration with ReAct framework, memory, GraphDB, and RAG</p>
+          <div class="card-expand-content">
+            <p class="text-xs text-text-secondary mt-3 pt-3 border-t border-white/[0.06]">Production-ready AI agent system at Mal Bank with Supervisor pattern for multi-agent coordination. Integrated memory functionality and GraphDB for user profiles.</p>
+          </div>
+        </div>
+
+        <div class="bento-card rounded-2xl p-6 cursor-pointer hover:scale-[1.02] transition-transform duration-300 opacity-0"
+             style="background: linear-gradient(135deg, #1a2e1a, #162116);">
+          <div class="text-[10px] uppercase tracking-widest text-[#66ea7e]">MLOps</div>
+          <h3 class="text-[15px] font-semibold mt-2">Ray/MLOps Platform</h3>
+          <p class="text-xs text-text-secondary mt-2">End-to-end ML platform scaling RL workloads to 1k GPU nodes, reducing training time by 90%</p>
+        </div>
+
+        <div class="bento-card rounded-2xl p-6 cursor-pointer hover:scale-[1.02] transition-transform duration-300 opacity-0"
+             style="background: linear-gradient(135deg, #2e1a2e, #211621);">
+          <div class="text-[10px] uppercase tracking-widest text-[#ea66d5]">Reinforcement Learning</div>
+          <h3 class="text-[15px] font-semibold mt-2">PPO Trading Strategy</h3>
+          <p class="text-xs text-text-secondary mt-2">RL-based futures trading with custom reward shaping, achieving 2x RoMaD</p>
+        </div>
+
+        <div class="bento-card rounded-2xl p-6 cursor-pointer hover:scale-[1.02] transition-transform duration-300 opacity-0"
+             style="background: linear-gradient(135deg, #2e1a1a, #211616);">
+          <div class="text-[10px] uppercase tracking-widest text-[#ea6666]">Deep Learning</div>
+          <h3 class="text-[15px] font-semibold mt-2">Variational Autoencoder</h3>
+          <p class="text-xs text-text-secondary mt-2">Noise reduction + unlimited synthetic market data generation for backtesting</p>
+        </div>
+
+        <div class="bento-card rounded-2xl p-6 cursor-pointer hover:scale-[1.02] transition-transform duration-300 opacity-0"
+             style="background: linear-gradient(135deg, #2e2e1a, #212116);">
+          <div class="text-[10px] uppercase tracking-widest text-[#eaea66]">Data Engineering</div>
+          <h3 class="text-[15px] font-semibold mt-2">TB-Scale ELT Pipeline</h3>
+          <p class="text-xs text-text-secondary mt-2">High-throughput Spark/HiveQL pipeline reducing ingestion-to-reporting latency to under 10 min</p>
+        </div>
+
+        <div class="bento-card rounded-2xl p-6 cursor-pointer hover:scale-[1.02] transition-transform duration-300 opacity-0"
+             style="background: linear-gradient(135deg, #2e1a1a, #211616);">
+          <div class="text-[10px] uppercase tracking-widest text-[#ea6666]">Deep Learning</div>
+          <h3 class="text-[15px] font-semibold mt-2">Edge Anomaly Detection</h3>
+          <p class="text-xs text-text-secondary mt-2">Inception V3 on Jetson Nano with MQTT + AWS Greengrass IoT automated deployment</p>
+        </div>
+
+        <div class="bento-card rounded-2xl p-6 cursor-pointer hover:scale-[1.02] transition-transform duration-300 opacity-0"
+             style="background: linear-gradient(135deg, #1a1a2e, #16213e);">
+          <div class="text-[10px] uppercase tracking-widest text-[#667eea]">LLM &amp; GenAI</div>
+          <h3 class="text-[15px] font-semibold mt-2">Knowledge-based LLM Tool</h3>
+          <p class="text-xs text-text-secondary mt-2">OpenAI-powered report aggregation cutting daily report prep time by 1+ hour</p>
+        </div>
+
+        <div class="bento-card rounded-2xl p-6 cursor-pointer hover:scale-[1.02] transition-transform duration-300 opacity-0"
+             style="background: linear-gradient(135deg, #2e2e1a, #212116);">
+          <div class="text-[10px] uppercase tracking-widest text-[#eaea66]">Machine Learning</div>
+          <h3 class="text-[15px] font-semibold mt-2">AdTech CTR Optimization</h3>
+          <p class="text-xs text-text-secondary mt-2">Improved click-through rate by 50% via refined feature selection and label granularity</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- Section 5: Skills -->
   <section id="skills"></section>
