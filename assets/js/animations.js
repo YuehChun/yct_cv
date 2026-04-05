@@ -30,6 +30,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const navbar = document.getElementById('navbar');
   const heroSection = document.getElementById('hero');
 
+  // Set navbar initial state via GSAP
+  gsap.set(navbar, { yPercent: -100 });
+
   ScrollTrigger.create({
     trigger: heroSection,
     start: 'bottom top',
@@ -58,73 +61,85 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // ── Section reveal animations ──
   document.querySelectorAll('.section-label').forEach((label) => {
-    gsap.from(label, {
-      x: -20,
-      opacity: 0,
-      duration: 0.4,
-      scrollTrigger: {
-        trigger: label,
-        start: 'top 80%',
-        toggleActions: 'play none none none',
-      },
-    });
-    label.style.opacity = '';
+    gsap.fromTo(label,
+      { x: -20, opacity: 0 },
+      {
+        x: 0,
+        opacity: 1,
+        duration: 0.4,
+        scrollTrigger: {
+          trigger: label,
+          start: 'top 80%',
+          toggleActions: 'play none none none',
+        },
+      }
+    );
   });
 
   document.querySelectorAll('.section-title').forEach((title) => {
-    gsap.from(title, {
-      clipPath: 'inset(0 100% 0 0)',
-      opacity: 0,
-      duration: 0.6,
-      scrollTrigger: {
-        trigger: title,
-        start: 'top 80%',
-        toggleActions: 'play none none none',
-      },
-    });
-    title.style.opacity = '';
+    gsap.fromTo(title,
+      { clipPath: 'inset(0 100% 0 0)', opacity: 0 },
+      {
+        clipPath: 'inset(0 0% 0 0)',
+        opacity: 1,
+        duration: 0.6,
+        scrollTrigger: {
+          trigger: title,
+          start: 'top 80%',
+          toggleActions: 'play none none none',
+        },
+      }
+    );
   });
 
   document.querySelectorAll('.section-content').forEach((content) => {
-    gsap.from(content, {
-      y: 20,
-      opacity: 0,
-      duration: 0.5,
-      delay: 0.2,
-      scrollTrigger: {
-        trigger: content,
-        start: 'top 85%',
-        toggleActions: 'play none none none',
-      },
-    });
-    content.style.opacity = '';
+    gsap.fromTo(content,
+      { y: 20, opacity: 0 },
+      {
+        y: 0,
+        opacity: 1,
+        duration: 0.5,
+        delay: 0.2,
+        scrollTrigger: {
+          trigger: content,
+          start: 'top 85%',
+          toggleActions: 'play none none none',
+        },
+      }
+    );
   });
 
   // ── Experience cards stagger ──
-  gsap.from('.exp-card', {
-    y: 30,
-    opacity: 0,
-    stagger: 0.15,
-    duration: 0.5,
-    scrollTrigger: {
-      trigger: '#experience',
-      start: 'top 60%',
-      toggleActions: 'play none none none',
-    },
-  });
+  gsap.fromTo('.exp-card',
+    { y: 30, opacity: 0 },
+    {
+      y: 0,
+      opacity: 1,
+      stagger: 0.15,
+      duration: 0.5,
+      scrollTrigger: {
+        trigger: '#experience',
+        start: 'top 60%',
+        toggleActions: 'play none none none',
+      },
+    }
+  );
 
   // ── Bento grid cards stagger ──
-  gsap.from('.bento-card', {
-    scale: 0.9,
-    opacity: 0,
-    stagger: 0.1,
-    duration: 0.5,
-    scrollTrigger: {
-      trigger: '#work',
-      start: 'top 60%',
-      toggleActions: 'play none none none',
-    },
-  });
+  gsap.fromTo('.bento-card',
+    { scale: 0.9, opacity: 0 },
+    {
+      scale: 1,
+      opacity: 1,
+      stagger: 0.1,
+      duration: 0.5,
+      scrollTrigger: {
+        trigger: '#work',
+        start: 'top 60%',
+        toggleActions: 'play none none none',
+      },
+    }
+  );
 
   // ── Mobile nav toggle ──
   const navToggle = document.getElementById('nav-toggle');

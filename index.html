@@ -51,7 +51,7 @@
 <body class="font-sans antialiased">
 
   <!-- Navigation (sticky, hidden initially) -->
-  <nav id="navbar" class="fixed top-0 left-0 right-0 z-50 -translate-y-full transition-transform duration-300"
+  <nav id="navbar" class="fixed top-0 left-0 right-0 z-50"
        style="background: rgba(0,0,0,0.8); backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);">
     <div class="max-w-5xl mx-auto px-6 py-4 flex items-center justify-between">
       <span class="text-sm font-semibold text-text-primary">Hugo Tsai</span>
@@ -99,6 +99,7 @@
     </div>
   </nav>
 
+  <main>
   <!-- Section 1: Hero -->
   <section id="hero" class="min-h-screen flex flex-col items-center justify-center px-6 text-center">
     <div id="hero-avatar" class="w-28 h-28 rounded-full overflow-hidden border-2 border-white/20 mb-6 opacity-0 scale-0">
@@ -111,8 +112,8 @@
       Senior AI Engineer &amp; MLOps Specialist
     </p>
     <div id="hero-links" class="flex gap-3 mt-8">
-      <a href="https://github.com/yuehchun" target="_blank" class="px-4 py-2 border border-white/20 rounded-full text-xs text-text-secondary hover:text-text-primary hover:border-white/40 transition opacity-0">GitHub</a>
-      <a href="https://www.linkedin.com/in/hugotsai" target="_blank" class="px-4 py-2 border border-white/20 rounded-full text-xs text-text-secondary hover:text-text-primary hover:border-white/40 transition opacity-0">LinkedIn</a>
+      <a href="https://github.com/yuehchun" target="_blank" rel="noopener noreferrer" class="px-4 py-2 border border-white/20 rounded-full text-xs text-text-secondary hover:text-text-primary hover:border-white/40 transition opacity-0">GitHub</a>
+      <a href="https://www.linkedin.com/in/hugotsai" target="_blank" rel="noopener noreferrer" class="px-4 py-2 border border-white/20 rounded-full text-xs text-text-secondary hover:text-text-primary hover:border-white/40 transition opacity-0">LinkedIn</a>
       <a href="mailto:birdtasi@gmail.com" class="px-4 py-2 border border-white/20 rounded-full text-xs text-text-secondary hover:text-text-primary hover:border-white/40 transition opacity-0">Email</a>
     </div>
     <div class="mt-16 text-text-tertiary text-xs animate-bounce">↓ Scroll</div>
@@ -262,49 +263,49 @@
           </div>
         </div>
 
-        <div class="bento-card rounded-2xl p-6 cursor-pointer hover:scale-[1.02] transition-transform duration-300 opacity-0"
+        <div class="bento-card rounded-2xl p-6 hover:scale-[1.02] transition-transform duration-300 opacity-0"
              style="background: linear-gradient(135deg, #1a2e1a, #162116);">
           <div class="text-[10px] uppercase tracking-widest text-[#66ea7e]">MLOps</div>
           <h3 class="text-[15px] font-semibold mt-2">Ray/MLOps Platform</h3>
           <p class="text-xs text-text-secondary mt-2">End-to-end ML platform scaling RL workloads to 1k GPU nodes, reducing training time by 90%</p>
         </div>
 
-        <div class="bento-card rounded-2xl p-6 cursor-pointer hover:scale-[1.02] transition-transform duration-300 opacity-0"
+        <div class="bento-card rounded-2xl p-6 hover:scale-[1.02] transition-transform duration-300 opacity-0"
              style="background: linear-gradient(135deg, #2e1a2e, #211621);">
           <div class="text-[10px] uppercase tracking-widest text-[#ea66d5]">Reinforcement Learning</div>
           <h3 class="text-[15px] font-semibold mt-2">PPO Trading Strategy</h3>
           <p class="text-xs text-text-secondary mt-2">RL-based futures trading with custom reward shaping, achieving 2x RoMaD</p>
         </div>
 
-        <div class="bento-card rounded-2xl p-6 cursor-pointer hover:scale-[1.02] transition-transform duration-300 opacity-0"
+        <div class="bento-card rounded-2xl p-6 hover:scale-[1.02] transition-transform duration-300 opacity-0"
              style="background: linear-gradient(135deg, #2e1a1a, #211616);">
           <div class="text-[10px] uppercase tracking-widest text-[#ea6666]">Deep Learning</div>
           <h3 class="text-[15px] font-semibold mt-2">Variational Autoencoder</h3>
           <p class="text-xs text-text-secondary mt-2">Noise reduction + unlimited synthetic market data generation for backtesting</p>
         </div>
 
-        <div class="bento-card rounded-2xl p-6 cursor-pointer hover:scale-[1.02] transition-transform duration-300 opacity-0"
+        <div class="bento-card rounded-2xl p-6 hover:scale-[1.02] transition-transform duration-300 opacity-0"
              style="background: linear-gradient(135deg, #2e2e1a, #212116);">
           <div class="text-[10px] uppercase tracking-widest text-[#eaea66]">Data Engineering</div>
           <h3 class="text-[15px] font-semibold mt-2">TB-Scale ELT Pipeline</h3>
           <p class="text-xs text-text-secondary mt-2">High-throughput Spark/HiveQL pipeline reducing ingestion-to-reporting latency to under 10 min</p>
         </div>
 
-        <div class="bento-card rounded-2xl p-6 cursor-pointer hover:scale-[1.02] transition-transform duration-300 opacity-0"
+        <div class="bento-card rounded-2xl p-6 hover:scale-[1.02] transition-transform duration-300 opacity-0"
              style="background: linear-gradient(135deg, #2e1a1a, #211616);">
           <div class="text-[10px] uppercase tracking-widest text-[#ea6666]">Deep Learning</div>
           <h3 class="text-[15px] font-semibold mt-2">Edge Anomaly Detection</h3>
           <p class="text-xs text-text-secondary mt-2">Inception V3 on Jetson Nano with MQTT + AWS Greengrass IoT automated deployment</p>
         </div>
 
-        <div class="bento-card rounded-2xl p-6 cursor-pointer hover:scale-[1.02] transition-transform duration-300 opacity-0"
+        <div class="bento-card rounded-2xl p-6 hover:scale-[1.02] transition-transform duration-300 opacity-0"
              style="background: linear-gradient(135deg, #1a1a2e, #16213e);">
           <div class="text-[10px] uppercase tracking-widest text-[#667eea]">LLM &amp; GenAI</div>
           <h3 class="text-[15px] font-semibold mt-2">Knowledge-based LLM Tool</h3>
           <p class="text-xs text-text-secondary mt-2">OpenAI-powered report aggregation cutting daily report prep time by 1+ hour</p>
         </div>
 
-        <div class="bento-card rounded-2xl p-6 cursor-pointer hover:scale-[1.02] transition-transform duration-300 opacity-0"
+        <div class="bento-card rounded-2xl p-6 hover:scale-[1.02] transition-transform duration-300 opacity-0"
              style="background: linear-gradient(135deg, #2e2e1a, #212116);">
           <div class="text-[10px] uppercase tracking-widest text-[#eaea66]">Machine Learning</div>
           <h3 class="text-[15px] font-semibold mt-2">AdTech CTR Optimization</h3>
@@ -447,12 +448,14 @@
     </div>
   </section>
 
+  </main>
+
   <!-- Footer -->
   <footer id="footer" class="py-12 px-6 text-center">
     <p class="text-[13px] text-text-secondary">&copy; 2026 Yueh-Chun Tsai</p>
     <div class="flex gap-6 justify-center mt-4">
-      <a href="https://github.com/yuehchun" target="_blank" class="text-xs text-text-tertiary hover:text-text-primary transition">GitHub</a>
-      <a href="https://www.linkedin.com/in/hugotsai" target="_blank" class="text-xs text-text-tertiary hover:text-text-primary transition">LinkedIn</a>
+      <a href="https://github.com/yuehchun" target="_blank" rel="noopener noreferrer" class="text-xs text-text-tertiary hover:text-text-primary transition">GitHub</a>
+      <a href="https://www.linkedin.com/in/hugotsai" target="_blank" rel="noopener noreferrer" class="text-xs text-text-tertiary hover:text-text-primary transition">LinkedIn</a>
       <a href="mailto:birdtasi@gmail.com" class="text-xs text-text-tertiary hover:text-text-primary transition">Email</a>
     </div>
   </footer>
