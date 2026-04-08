@@ -126,20 +126,22 @@ document.addEventListener('DOMContentLoaded', () => {
   );
 
   // ── Bento grid cards stagger ──
-  gsap.fromTo('.bento-card',
-    { scale: 0.9, opacity: 0 },
-    {
-      scale: 1,
-      opacity: 1,
-      stagger: 0.1,
-      duration: 0.5,
-      scrollTrigger: {
-        trigger: '#work',
-        start: 'top 60%',
-        toggleActions: 'play none none none',
-      },
-    }
-  );
+  document.querySelectorAll('#work, #side-projects').forEach((section) => {
+    gsap.fromTo(section.querySelectorAll('.bento-card'),
+      { scale: 0.9, opacity: 0 },
+      {
+        scale: 1,
+        opacity: 1,
+        stagger: 0.1,
+        duration: 0.5,
+        scrollTrigger: {
+          trigger: section,
+          start: 'top 60%',
+          toggleActions: 'play none none none',
+        },
+      }
+    );
+  });
 
   // ── Mobile nav toggle ──
   const navToggle = document.getElementById('nav-toggle');
